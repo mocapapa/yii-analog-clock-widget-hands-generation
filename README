@@ -1,0 +1,7 @@
+Clock.php ----------------- components/Clock.php
+analog-clock-hands.png ---- clock hands image sprite
+analog-clock.php ---------- components/view/analog-clock.php
+analog-clock-base.png ----- clock image base
+handsGen.php -------------- image generator for analog-clock-hands.png
+screenshot.jpg ------------ screenshot of the widget
+yiiframeworklogo.png ------ small yii framework logo
