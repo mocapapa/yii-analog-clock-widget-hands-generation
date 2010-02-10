@@ -101,7 +101,7 @@ ImageFilledRectangle($dBan, 0,0, $dBanWidth, $dBanHeight, $dBack);
 // 横に60枚
 for ($i = 0; $i < 60; $i++) {
   // 進捗率表示
-  printf("%02d\%\n".chr(0x1b).'M', $i/60*100);
+  printf("%02d%%\n".chr(0x1b).'M', $i/60*100);
 
   // 角度
   $d = $i * 6;
