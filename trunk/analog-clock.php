@@ -1,8 +1,8 @@
 <center>
 <!-- $Id$ -->
 <?php
-  $clockOffsetX = 40;
-  $clockOffsetY = 1;
+  $clockOffsetX = 41;
+  $clockOffsetY = 2;
 ?>
 <div style="position: relative;">
   <img src="<?php echo Yii::app()->request->baseUrl;?>/systemImages/analog-clock-base.png">
