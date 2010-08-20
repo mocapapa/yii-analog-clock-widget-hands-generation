@@ -1,11 +1,18 @@
 <?php
   // @version $Id$
-class Clock extends Portlet
-{
-  public $title='Clock';
 
-  protected function renderContent()
-  {
-    $this->render('analog-clock');
-  }
+class Clock extends CPortlet
+{
+	public $title='Clock';
+
+	public function init()
+	{
+		parent::init();
+		Yii::app()->clientScript->registerCoreScript('jquery');
+	}
+
+	protected function renderContent()
+	{
+		$this->render('analog-clock');
+	}
 }
